@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 312" role="img" aria-label="Apollo" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+  <rect width="600" height="312" fill="#07040a"/>
+  <svg width="600" height="240" viewBox="0 0 600 240"><defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#1c0f14"/>
+      <stop offset="1" stop-color="#07040a"/>
+    </radialGradient>
+    <radialGradient id="sun">
+      <stop offset="0" stop-color="#ffe7c4"/>
+      <stop offset="0.35" stop-color="#f08a68" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#d2583c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="240" fill="url(#bg)"/>
+
+  <!-- the sun behind -->
+  <circle cx="350" cy="92" r="95" fill="url(#sun)"/>
+  <g stroke="#f08a68" stroke-opacity="0.35" stroke-width="2">
+    <line x1="350" y1="0" x2="350" y2="20"/><line x1="440" y1="92" x2="470" y2="92"/>
+    <line x1="414" y1="28" x2="430" y2="12"/><line x1="286" y1="28" x2="270" y2="12"/>
+  </g>
+
+  <!-- clapperboard -->
+  <g filter="url(#glow)">
+    <g transform="rotate(-18 230 96)">
+      <rect x="230" y="84" width="150" height="22" fill="#0d0812" stroke="#ece4e0" stroke-width="2"/>
+      <g fill="#ece4e0">
+        <path d="M240 84 h18 l-10 22 h-18 z"/><path d="M276 84 h18 l-10 22 h-18 z"/>
+        <path d="M312 84 h18 l-10 22 h-18 z"/><path d="M348 84 h18 l-10 22 h-18 z"/>
+      </g>
+    </g>
+    <rect x="230" y="108" width="150" height="90" fill="#0d0812" stroke="#ece4e0" stroke-width="2"/>
+    <g fill="#ece4e0">
+      <path d="M230 108 h150 v18 h-150 z" opacity="0.15"/>
+      <path d="M240 108 h18 l-10 18 h-18 z"/><path d="M276 108 h18 l-10 18 h-18 z"/>
+      <path d="M312 108 h18 l-10 18 h-18 z"/><path d="M348 108 h18 l-10 18 h-18 z"/>
+    </g>
+    <g stroke="#c9b48f" stroke-opacity="0.5">
+      <line x1="230" y1="150" x2="380" y2="150"/><line x1="230" y1="172" x2="380" y2="172"/>
+      <line x1="305" y1="126" x2="305" y2="198"/>
+    </g>
+    <g font-family="monospace" font-size="10" fill="#c9b48f">
+      <text x="238" y="144">PROD.</text><text x="312" y="144">SCENE</text>
+      <text x="238" y="166">ROLL</text><text x="312" y="166">TAKE</text>
+    </g>
+  </g>
+
+  <!-- alert ping -->
+  <g transform="translate(410 160)">
+    <circle r="26" fill="none" stroke="#b9a4ff" stroke-opacity="0.25" stroke-width="2"/>
+    <circle r="17" fill="none" stroke="#b9a4ff" stroke-opacity="0.5" stroke-width="2"/>
+    <circle r="9" fill="#b9a4ff"/>
+    <text y="4" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#07040a">!</text>
+  </g></svg>
+  <path d="M0 240 H600" stroke="#33264f"/>
+  <text x="300" y="287" font-size="34" font-weight="600" fill="#ece4e0" text-anchor="middle">Apollo</text>
+  <rect x="0.5" y="0.5" width="599" height="311" fill="none" stroke="#33264f"/>
+</svg>

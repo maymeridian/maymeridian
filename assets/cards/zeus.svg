@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 312" role="img" aria-label="Zeus" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+  <rect width="600" height="312" fill="#07040a"/>
+  <svg width="600" height="240" viewBox="0 0 600 240"><defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0" stop-color="#1a1210"/>
+      <stop offset="1" stop-color="#07040a"/>
+    </radialGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff1c4"/>
+      <stop offset="0.5" stop-color="#e8c26a"/>
+      <stop offset="1" stop-color="#f08a68"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="240" fill="url(#bg)"/>
+
+  <!-- the line the photos take -->
+  <line x1="165" y1="170" x2="424" y2="170" stroke="#6d5f66" stroke-width="1.5"/>
+
+  <!-- Zeus starts each of them -->
+  <g stroke="#e8c26a" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.6" fill="none">
+    <path d="M286 100 L232 150"/>
+    <path d="M296 130 L299 146"/>
+    <path d="M318 92 L368 150"/>
+  </g>
+
+  <!-- camera card in -->
+  <path d="M128 148 H158 L168 158 V194 H128 Z" fill="#120b16" stroke="#c9b48f" stroke-width="1.5"/>
+  <g fill="#c9b48f" opacity="0.7"><rect x="133" y="152" width="4" height="9"/><rect x="141" y="152" width="4" height="9"/><rect x="149" y="152" width="4" height="9"/></g>
+
+  <!-- Argus: an eye -->
+  <circle cx="222" cy="170" r="22" fill="#120b16" stroke="#33264f" stroke-width="1.5"/>
+  <path d="M206 170 Q222 156 238 170 Q222 184 206 170 Z" fill="none" stroke="#4ade80" stroke-width="1.5"/>
+  <circle cx="222" cy="170" r="4.5" fill="#4ade80"/>
+
+  <!-- Iris: a rainbow -->
+  <circle cx="300" cy="170" r="22" fill="#120b16" stroke="#33264f" stroke-width="1.5"/>
+  <path d="M287 177 A13 13 0 0 1 313 177" fill="none" stroke="#b9a4ff" stroke-width="2"/>
+  <path d="M292 177 A8 8 0 0 1 308 177" fill="none" stroke="#f08a68" stroke-width="2"/>
+
+  <!-- Pheme: a herald's horn -->
+  <circle cx="378" cy="170" r="22" fill="#120b16" stroke="#33264f" stroke-width="1.5"/>
+  <g fill="#4fb8f0">
+    <rect x="362" y="166.5" width="5" height="7" rx="1.2"/>
+    <rect x="367" y="168.5" width="12" height="3"/>
+    <path d="M378 170 L392 161 V179 Z"/>
+  </g>
+
+  <!-- listings out, waiting for someone to approve them -->
+  <g stroke="#2c3a52" stroke-width="1.2">
+    <rect x="420" y="150" width="46" height="22" rx="3" fill="#0b0f18"/>
+    <rect x="424" y="159" width="46" height="22" rx="3" fill="#0d1320"/>
+    <g transform="translate(428 168)">
+      <rect width="46" height="22" rx="3" fill="#101826"/>
+      <rect x="3.5" y="3.5" width="15" height="15" fill="#e9eef5" stroke="none"/>
+      <rect x="22" y="6" width="19" height="3.5" rx="1.75" fill="#bfe9ff" stroke="none"/>
+      <rect x="22" y="13" width="12" height="3" rx="1.5" fill="#5d6f88" stroke="none"/>
+    </g>
+  </g>
+
+  <!-- the bolt -->
+  <g filter="url(#glow)">
+    <path d="M312 30 L282 84 H300 L288 126 L326 68 H306 L322 30 Z" fill="url(#bolt)"/>
+  </g></svg>
+  <path d="M0 240 H600" stroke="#33264f"/>
+  <text x="300" y="287" font-size="34" font-weight="600" fill="#ece4e0" text-anchor="middle">Zeus</text>
+  <rect x="0.5" y="0.5" width="599" height="311" fill="none" stroke="#33264f"/>
+</svg>

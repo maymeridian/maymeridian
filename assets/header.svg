@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-label="maymeridian: machine learning, game mods and reverse engineering. A star is pulled into a black hole beside the name.">
+  <defs>
+    <clipPath id="frame"><rect width="1200" height="380" rx="14"/></clipPath>
+    <radialGradient id="cloud-red"><stop offset="0" stop-color="#d2583c" stop-opacity="0.22"/><stop offset="1" stop-color="#d2583c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cloud-violet"><stop offset="0" stop-color="#8b6cf0" stop-opacity="0.2"/><stop offset="1" stop-color="#8b6cf0" stop-opacity="0"/></radialGradient>
+    <linearGradient id="disk" x1="0" x2="1">
+      <stop offset="0" stop-color="#8b6cf0" stop-opacity="0.2"/><stop offset="0.3" stop-color="#d2583c"/>
+      <stop offset="0.5" stop-color="#fff0d8"/><stop offset="0.7" stop-color="#d2583c"/>
+      <stop offset="1" stop-color="#8b6cf0" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="stream" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff5e1"/><stop offset="0.6" stop-color="#f08a68"/>
+      <stop offset="1" stop-color="#d2583c" stop-opacity="0.6"/>
+    </linearGradient>
+    <radialGradient id="star">
+      <stop offset="0" stop-color="#fffaf0"/><stop offset="0.35" stop-color="#ffd2a8" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#f08a68" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .tw { fill: #fff; animation: twinkle 5s ease-in-out infinite; }
+    .tw.b { animation-duration: 7s; animation-delay: -3s; }
+    .tw.c { animation-duration: 11s; animation-delay: -6s; }
+    @keyframes twinkle { 0%, 100% { opacity: 0.2; } 50% { opacity: 0.85; } }
+    .debris { stroke-dasharray: 30 16; animation: fall 1.6s linear infinite; }
+    @keyframes fall { to { stroke-dashoffset: -46; } }
+    .disk { animation: flare 6s ease-in-out infinite; }
+    @keyframes flare { 0%, 100% { opacity: 0.78; } 50% { opacity: 1; } }
+    .victim { animation: stretch 6s ease-in-out infinite; transform-origin: 150px 122px; transform-box: view-box; }
+    @keyframes stretch { 0%, 100% { transform: rotate(-20deg) scale(1, 1); } 50% { transform: rotate(-20deg) scale(1.18, 0.86); } }
+    .caret { animation: blink 0.9s steps(1) infinite; }
+    @keyframes blink { 50% { fill-opacity: 0; } }
+    .ticker { animation: scroll 80s linear infinite; }
+    @keyframes scroll { to { transform: translateX(-1790px); } }
+    @media (prefers-reduced-motion: reduce) { .tw, .debris, .disk, .victim, .ticker { animation: none; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="#07040a"/>
+    <ellipse cx="110" cy="20" rx="520" ry="230" fill="url(#cloud-red)"/>
+    <ellipse cx="1090" cy="120" rx="480" ry="260" fill="url(#cloud-violet)"/>
+    <ellipse cx="420" cy="400" rx="560" ry="200" fill="url(#cloud-violet)"/>
+    <circle class="tw b" cx="253" cy="188" r="1.6"/>
+    <circle class="tw c" cx="148" cy="57" r="1.0"/>
+    <circle class="tw b" cx="79" cy="182" r="1.2"/>
+    <circle class="tw b" cx="565" cy="135" r="0.8"/>
+    <circle class="tw b" cx="592" cy="165" r="1.2"/>
+    <circle class="tw b" cx="86" cy="292" r="1.0"/>
+    <circle class="tw b" cx="131" cy="95" r="1.2"/>
+    <circle class="tw a" cx="527" cy="142" r="1.2"/>
+    <circle class="tw a" cx="962" cy="117" r="1.2"/>
+    <circle class="tw a" cx="217" cy="135" r="0.8"/>
+    <circle class="tw c" cx="197" cy="252" r="1.0"/>
+    <circle class="tw c" cx="922" cy="234" r="1.2"/>
+    <circle class="tw a" cx="294" cy="176" r="1.6"/>
+    <circle class="tw a" cx="623" cy="230" r="1.2"/>
+    <circle class="tw a" cx="489" cy="230" r="1.6"/>
+    <circle class="tw a" cx="969" cy="221" r="1.2"/>
+    <circle class="tw c" cx="979" cy="193" r="0.8"/>
+    <circle class="tw b" cx="148" cy="131" r="1.2"/>
+    <circle class="tw b" cx="412" cy="240" r="1.0"/>
+    <circle class="tw a" cx="746" cy="212" r="0.6"/>
+    <circle class="tw a" cx="1084" cy="147" r="1.0"/>
+    <circle class="tw b" cx="229" cy="23" r="0.8"/>
+    <circle class="tw c" cx="1077" cy="264" r="0.8"/>
+    <circle class="tw a" cx="781" cy="46" r="0.8"/>
+    <circle class="tw b" cx="588" cy="125" r="1.0"/>
+    <circle class="tw a" cx="423" cy="138" r="0.6"/>
+    <circle class="tw c" cx="13" cy="112" r="1.6"/>
+    <circle class="tw a" cx="780" cy="22" r="0.8"/>
+    <circle class="tw c" cx="412" cy="179" r="1.6"/>
+    <circle class="tw b" cx="693" cy="261" r="1.2"/>
+    <circle class="tw b" cx="690" cy="164" r="1.2"/>
+    <circle class="tw c" cx="359" cy="149" r="1.0"/>
+    <circle class="tw b" cx="1048" cy="221" r="1.6"/>
+    <circle class="tw a" cx="889" cy="225" r="0.8"/>
+    <circle class="tw a" cx="817" cy="131" r="1.6"/>
+    <circle class="tw a" cx="1003" cy="67" r="1.6"/>
+    <circle class="tw c" cx="857" cy="25" r="1.0"/>
+    <circle class="tw a" cx="926" cy="116" r="1.0"/>
+    <circle class="tw c" cx="376" cy="121" r="1.6"/>
+    <circle class="tw c" cx="258" cy="150" r="0.8"/>
+    <circle class="tw c" cx="1141" cy="138" r="0.6"/>
+    <circle class="tw b" cx="656" cy="291" r="0.8"/>
+    <circle class="tw b" cx="971" cy="71" r="1.0"/>
+    <circle class="tw c" cx="93" cy="32" r="0.6"/>
+    <circle class="tw a" cx="748" cy="172" r="0.8"/>
+    <circle class="tw c" cx="276" cy="131" r="1.6"/>
+    <circle class="tw b" cx="1082" cy="120" r="0.8"/>
+    <circle class="tw c" cx="876" cy="166" r="1.2"/>
+    <circle class="tw b" cx="670" cy="243" r="0.8"/>
+    <circle class="tw c" cx="614" cy="203" r="0.6"/>
+    <circle class="tw c" cx="193" cy="179" r="1.2"/>
+    <circle class="tw a" cx="327" cy="214" r="0.6"/>
+    <circle class="tw a" cx="370" cy="14" r="1.2"/>
+    <circle class="tw c" cx="1068" cy="183" r="0.6"/>
+    <circle class="tw a" cx="608" cy="106" r="0.8"/>
+    <circle class="tw c" cx="843" cy="160" r="0.8"/>
+    <circle class="tw a" cx="165" cy="69" r="0.8"/>
+    <circle class="tw b" cx="329" cy="70" r="0.6"/>
+    <circle class="tw a" cx="194" cy="12" r="0.8"/>
+    <circle class="tw c" cx="758" cy="287" r="1.2"/>
+    <circle class="tw a" cx="67" cy="102" r="0.6"/>
+    <circle class="tw c" cx="1120" cy="55" r="0.6"/>
+    <circle class="tw c" cx="185" cy="236" r="0.8"/>
+    <circle class="tw c" cx="1067" cy="263" r="1.0"/>
+    <circle class="tw a" cx="736" cy="74" r="1.6"/>
+    <circle class="tw a" cx="1087" cy="241" r="0.6"/>
+    <circle class="tw a" cx="117" cy="218" r="1.2"/>
+    <circle class="tw b" cx="211" cy="209" r="1.2"/>
+    <circle class="tw a" cx="1043" cy="11" r="0.8"/>
+    <circle class="tw b" cx="647" cy="103" r="1.6"/>
+    <circle class="tw a" cx="1176" cy="156" r="0.8"/>
+    <circle class="tw b" cx="1141" cy="120" r="0.6"/>
+    <circle class="tw c" cx="743" cy="159" r="0.8"/>
+    <circle class="tw a" cx="515" cy="107" r="1.0"/>
+    <circle class="tw c" cx="192" cy="239" r="1.0"/>
+    <circle class="tw b" cx="286" cy="251" r="0.6"/>
+    <circle class="tw b" cx="558" cy="29" r="1.6"/>
+    <circle class="tw c" cx="452" cy="298" r="0.6"/>
+    <circle class="tw a" cx="783" cy="213" r="0.8"/>
+    <circle class="tw b" cx="930" cy="283" r="1.6"/>
+    <circle class="tw a" cx="636" cy="97" r="1.0"/>
+    <circle class="tw c" cx="940" cy="47" r="0.6"/>
+    <circle class="tw c" cx="865" cy="298" r="1.2"/>
+    <circle class="tw c" cx="877" cy="291" r="0.6"/>
+    <circle class="tw c" cx="835" cy="146" r="0.8"/>
+    <circle class="tw c" cx="94" cy="146" r="1.2"/>
+    <circle class="tw a" cx="180" cy="297" r="0.8"/>
+    <circle class="tw b" cx="450" cy="186" r="0.6"/>
+    <circle class="tw a" cx="847" cy="136" r="1.6"/>
+    <circle class="tw b" cx="275" cy="133" r="1.6"/>
+
+    <!-- a tidal disruption event: the star on the left is pulled into a stream that feeds the disk -->
+    <g transform="translate(610 42) scale(1.05)">
+      <g transform="rotate(-12 400 125)">
+        <path d="M335 125 A65 50 0 0 1 465 125" fill="none" stroke="#f08a68" stroke-width="6" opacity="0.45" filter="url(#glow)"/>
+        <path class="debris" d="M150 95 C 230 60, 330 55, 430 95 S 420 150, 380 140" fill="none" stroke="url(#stream)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+        <path d="M150 95 C 230 75, 320 72, 420 102" fill="none" stroke="#fff5e1" stroke-width="1.2" opacity="0.7"/>
+        <ellipse class="disk" cx="400" cy="125" rx="120" ry="24" fill="none" stroke="url(#disk)" stroke-width="10" filter="url(#glow)"/>
+        <circle cx="400" cy="125" r="40" fill="#000" stroke="#ffd7aa" stroke-width="1.5" filter="url(#glow)"/>
+        <path class="disk" d="M280 125 A120 24 0 0 0 520 125" fill="none" stroke="url(#disk)" stroke-width="10" filter="url(#glow)"/>
+      </g>
+      <ellipse class="victim" cx="150" cy="122" rx="30" ry="18" fill="url(#star)" transform="rotate(-20 150 122)"/>
+    </g>
+
+    <text x="70" y="150" font-size="68" fill="#f08a68" textLength="540" lengthAdjust="spacing">MAYMERIDIAN</text>
+    <clipPath id="line-0"><rect x="70" y="182" width="0" height="36">
+      <animate attributeName="width" values="0;623;623;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text x="70" y="208" font-size="24" fill="#ece4e0" textLength="619" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-0)">machine learning, checked against real data</text>
+    <rect class="caret" x="70" y="186" width="11" height="26" fill="#f08a68" opacity="0">
+      <animate attributeName="x" values="70;695;695;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <clipPath id="line-1"><rect x="70" y="182" width="0" height="36">
+      <animate attributeName="width" values="0;652;652;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="4s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text x="70" y="208" font-size="24" fill="#ece4e0" textLength="648" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-1)">game mods and a VR port rebuilt from a binary</text>
+    <rect class="caret" x="70" y="186" width="11" height="26" fill="#f08a68" opacity="0">
+      <animate attributeName="x" values="70;724;724;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="4s" repeatCount="indefinite"/>
+    </rect>
+    <clipPath id="line-2"><rect x="70" y="182" width="0" height="36">
+      <animate attributeName="width" values="0;623;623;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text x="70" y="208" font-size="24" fill="#ece4e0" textLength="619" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-2)">the tools that run a film and TV prop store</text>
+    <rect class="caret" x="70" y="186" width="11" height="26" fill="#f08a68" opacity="0">
+      <animate attributeName="x" values="70;695;695;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="70" y="262" font-size="17" fill="#b9a4ff">maymeridian.dev →</text>
+
+    <path d="M0 318 H1200 M0 364 H1200" stroke="#33264f"/>
+    <g fill="#9a8f96" opacity="0.75" font-size="16">
+      <g class="ticker">
+      <text x="0" y="346"><tspan dy="0" font-size="16">iℏ ∂ψ/∂t = Ĥψ</tspan></text>
+      <text x="195" y="346"><tspan dy="0" font-size="16">G</tspan><tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="16"> + Λg</tspan><tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="16"> = (8πG/c⁴) T</tspan><tspan dy="5" font-size="11">μν</tspan></text>
+      <text x="487" y="346"><tspan dy="0" font-size="16">∇·E = ρ/ε₀</tspan></text>
+      <text x="653" y="346"><tspan dy="0" font-size="16">r</tspan><tspan dy="5" font-size="11">t</tspan><tspan dy="-5" font-size="16"> ≈ R</tspan><tspan dy="5" font-size="11">★</tspan><tspan dy="-5" font-size="16">(M</tspan><tspan dy="5" font-size="11">BH</tspan><tspan dy="-5" font-size="16">/M</tspan><tspan dy="5" font-size="11">★</tspan><tspan dy="-5" font-size="16">)</tspan><tspan dy="-7" font-size="11">1/3</tspan></text>
+      <text x="872" y="346"><tspan dy="0" font-size="16">L ∝ t</tspan><tspan dy="-7" font-size="11">−5/3</tspan></text>
+      <text x="1016" y="346"><tspan dy="0" font-size="16">S = k</tspan><tspan dy="5" font-size="11">B</tspan><tspan dy="-5" font-size="16"> ln Ω</tspan></text>
+      <text x="1189" y="346"><tspan dy="0" font-size="16">E² = (pc)² + (mc²)²</tspan></text>
+      <text x="1441" y="346"><tspan dy="0" font-size="16">Δx Δp ≥ ℏ/2</tspan></text>
+      <text x="1617" y="346"><tspan dy="0" font-size="16">r</tspan><tspan dy="5" font-size="11">s</tspan><tspan dy="-5" font-size="16"> = 2GM/c²</tspan></text>
+      <text x="1790" y="346"><tspan dy="0" font-size="16">iℏ ∂ψ/∂t = Ĥψ</tspan></text>
+      <text x="1985" y="346"><tspan dy="0" font-size="16">G</tspan><tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="16"> + Λg</tspan><tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="16"> = (8πG/c⁴) T</tspan><tspan dy="5" font-size="11">μν</tspan></text>
+      <text x="2277" y="346"><tspan dy="0" font-size="16">∇·E = ρ/ε₀</tspan></text>
+      <text x="2443" y="346"><tspan dy="0" font-size="16">r</tspan><tspan dy="5" font-size="11">t</tspan><tspan dy="-5" font-size="16"> ≈ R</tspan><tspan dy="5" font-size="11">★</tspan><tspan dy="-5" font-size="16">(M</tspan><tspan dy="5" font-size="11">BH</tspan><tspan dy="-5" font-size="16">/M</tspan><tspan dy="5" font-size="11">★</tspan><tspan dy="-5" font-size="16">)</tspan><tspan dy="-7" font-size="11">1/3</tspan></text>
+      <text x="2662" y="346"><tspan dy="0" font-size="16">L ∝ t</tspan><tspan dy="-7" font-size="11">−5/3</tspan></text>
+      <text x="2806" y="346"><tspan dy="0" font-size="16">S = k</tspan><tspan dy="5" font-size="11">B</tspan><tspan dy="-5" font-size="16"> ln Ω</tspan></text>
+      <text x="2979" y="346"><tspan dy="0" font-size="16">E² = (pc)² + (mc²)²</tspan></text>
+      <text x="3231" y="346"><tspan dy="0" font-size="16">Δx Δp ≥ ℏ/2</tspan></text>
+      <text x="3407" y="346"><tspan dy="0" font-size="16">r</tspan><tspan dy="5" font-size="11">s</tspan><tspan dy="-5" font-size="16"> = 2GM/c²</tspan></text>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="14" fill="none" stroke="#33264f"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 486" role="img" aria-label="Echo: A practice tool for voice impressions: it finds the lines of a voice in a video, scores each take from 0 to 100 in line with how listeners judge voices, and coaches one aspect at a time." font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+  <rect width="600" height="486" fill="#07040a"/>
+  <svg width="600" height="240" viewBox="0 0 600 240"><defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0" stop-color="#15101f"/>
+      <stop offset="1" stop-color="#07040a"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="240" fill="url(#bg)"/>
+  <!-- the card thumbnail is cropped to its middle, so everything stays within x 136..470 -->
+  <g font-family="'JetBrains Mono', 'Courier New', monospace" font-size="22">
+    <!-- the target's pitch band and median -->
+    <rect x="136" y="70" width="334" height="44" fill="#8b6cf0" opacity="0.16"/>
+    <path d="M136 90 H470" stroke="#9085e9" stroke-width="2"/>
+    <text x="470" y="58" fill="#9a8f96" text-anchor="end">target</text>
+    <!-- your pitch, closing in -->
+    <path d="M142 196 L158 190 L170 192 M180 184 L196 176 L206 178 M216 168 L234 158 L246 160
+             M256 146 L274 136 L284 139 M294 126 L312 116 L322 118 M332 108 L350 100 L360 102
+             M370 96 L388 91 L398 93 M408 90 L426 88 L436 91 M446 89 L462 88"
+          stroke="#f08a68" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="142" y="226" fill="#9a8f96">you</text>
+  </g></svg>
+  <path d="M0 240 H600" stroke="#33264f"/>
+  <text x="28" y="284" font-size="25" font-weight="600" fill="#ece4e0">Echo</text>
+  <text x="28" y="322" font-size="18" fill="#9a8f96">A practice tool for voice impressions: it finds</text>
+  <text x="28" y="348" font-size="18" fill="#9a8f96">the lines of a voice in a video, scores each take</text>
+  <text x="28" y="374" font-size="18" fill="#9a8f96">from 0 to 100 in line with how listeners judge</text>
+  <text x="28" y="400" font-size="18" fill="#9a8f96">voices, and coaches one aspect at a time.</text>
+  <rect x="28" y="443" width="68" height="24" fill="none" stroke="#c9b48f" stroke-opacity="0.6"/><text x="37" y="460" font-size="14" fill="#c9b48f" textLength="50" lengthAdjust="spacingAndGlyphs">python</text>
+  <rect x="104" y="443" width="68" height="24" fill="none" stroke="#c9b48f" stroke-opacity="0.6"/><text x="113" y="460" font-size="14" fill="#c9b48f" textLength="50" lengthAdjust="spacingAndGlyphs">speech</text>
+  <rect x="180" y="443" width="152" height="24" fill="none" stroke="#c9b48f" stroke-opacity="0.6"/><text x="189" y="460" font-size="14" fill="#c9b48f" textLength="134" lengthAdjust="spacingAndGlyphs">machine learning</text>
+  <rect x="0.5" y="0.5" width="599" height="485" fill="none" stroke="#33264f"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 486" role="img" aria-label="Gojo over Doorman: A Deadlock mod that replaces the Doorman with Satoru Gojo: model, abilities, effects, voice lines and interface, designed to work in online matches." font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+  <rect width="600" height="486" fill="#07040a"/>
+  <svg width="600" height="240" viewBox="0 0 600 240"><defs>
+    <radialGradient id="bg" cx="50%" cy="52%" r="75%">
+      <stop offset="0" stop-color="#17102a"/>
+      <stop offset="1" stop-color="#07040a"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="240" fill="url(#bg)"/>
+
+  <!-- the domain's ring -->
+  <circle cx="300" cy="124" r="75.0" fill="#05030a"/>
+  <g filter="url(#glow)">
+    <circle cx="300" cy="124" r="75.0" fill="none" stroke="#f3e4bd" stroke-width="3"/>
+  </g>
+
+  <!-- the white tear, traced from the mod's own sprite -->
+  <path d="M203.6 132.4 L202.7 132.6 L201.8 131.8 L200.0 132.2 L199.5 131.2 L196.5 130.5 L203.2 119.4 L203.6 119.0 L206.4 119.5 L210.1 118.6 L216.1 115.5 L217.3 114.3 L217.0 112.1 L220.3 109.2 L219.6 106.5 L222.1 104.4 L223.9 104.6 L228.5 107.0 L229.9 106.9 L231.0 105.6 L230.8 102.5 L233.3 100.9 L232.0 99.6 L232.2 97.6 L233.6 97.6 L234.6 98.6 L234.8 99.6 L233.8 100.9 L235.5 101.6 L239.1 100.0 L241.5 98.2 L240.5 95.6 L238.5 95.4 L238.4 94.0 L239.1 93.4 L241.0 93.3 L245.9 95.4 L244.4 98.6 L245.6 99.3 L248.5 97.3 L249.5 95.4 L248.3 94.5 L250.7 93.2 L253.9 95.4 L259.9 97.2 L262.3 95.4 L262.9 93.1 L262.4 92.2 L264.3 89.9 L266.3 89.2 L268.6 90.0 L270.0 89.0 L270.7 86.7 L273.7 85.7 L287.6 84.5 L295.9 85.8 L304.1 84.5 L311.1 86.9 L318.4 83.7 L324.0 83.9 L323.8 82.0 L321.9 80.7 L321.6 78.4 L322.6 76.9 L324.4 79.0 L325.8 79.0 L327.0 79.7 L326.9 83.4 L330.9 83.3 L333.2 84.0 L335.1 83.4 L334.9 82.0 L336.4 79.7 L341.5 77.9 L344.7 74.2 L345.4 71.9 L349.3 71.5 L352.1 68.4 L353.5 68.5 L356.7 70.2 L358.6 70.1 L359.6 68.7 L361.7 61.8 L364.1 59.2 L366.4 61.4 L367.9 60.4 L368.7 58.9 L372.4 58.4 L374.2 61.0 L380.2 62.4 L383.0 65.6 L387.6 67.3 L388.6 68.2 L387.0 69.6 L387.4 73.3 L388.8 76.5 L389.9 77.2 L391.7 76.7 L392.9 75.1 L392.9 71.9 L391.7 71.0 L390.9 68.2 L394.1 67.0 L395.4 65.6 L395.8 66.4 L395.0 71.0 L393.3 73.7 L398.8 77.4 L397.9 81.1 L398.0 83.4 L400.7 86.2 L400.0 86.7 L398.2 86.5 L397.2 87.6 L397.5 92.6 L399.8 95.4 L398.6 103.3 L400.9 104.2 L401.4 105.1 L401.0 106.2 L397.3 107.1 L395.0 110.7 L393.6 111.2 L391.3 110.9 L389.9 113.0 L387.6 112.0 L385.6 114.3 L383.9 115.3 L379.1 112.9 L380.5 111.6 L380.2 108.6 L376.5 109.1 L374.7 108.6 L371.9 109.0 L370.5 111.2 L369.2 111.1 L366.8 112.1 L365.9 111.4 L362.7 113.4 L361.8 112.6 L360.2 114.3 L360.3 116.2 L358.1 117.0 L357.2 118.1 L353.9 117.4 L353.0 116.2 L350.3 118.2 L347.9 118.3 L345.9 117.5 L344.0 115.2 L344.5 112.9 L346.6 109.5 L347.9 109.6 L349.0 111.6 L353.5 115.0 L355.4 113.4 L351.6 108.7 L350.3 109.2 L346.6 108.6 L344.3 108.5 L343.8 109.1 L343.3 108.6 L342.0 110.3 L341.0 109.8 L337.8 110.1 L337.3 109.2 L337.5 104.6 L336.0 104.0 L333.7 104.3 L332.7 103.6 L324.9 105.6 L326.0 106.5 L324.4 108.7 L322.1 106.0 L318.0 104.5 L314.3 104.5 L304.6 109.8 L286.6 110.5 L280.6 113.0 L272.3 114.7 L273.3 116.1 L275.4 115.2 L277.4 117.3 L278.8 117.8 L278.5 119.9 L274.6 119.9 L273.3 121.2 L270.0 121.8 L268.6 121.4 L266.3 122.7 L264.0 121.5 L261.7 122.7 L259.9 121.7 L260.9 118.5 L260.5 116.6 L258.1 114.8 L257.1 111.9 L254.4 112.9 L253.0 114.7 L252.5 113.8 L250.7 113.4 L248.8 111.4 L247.4 111.4 L246.3 112.5 L246.1 116.2 L244.2 116.8 L244.1 118.5 L242.4 119.9 L241.4 120.0 L240.5 117.6 L236.4 117.2 L235.9 118.5 L234.1 119.6 L231.8 119.4 L230.4 120.5 L225.3 121.6 L224.9 122.7 L222.1 122.9 L217.9 125.7 L217.0 127.8 L215.6 128.1 L215.2 126.6 L213.8 126.6 L213.3 127.5 L211.3 128.1 L210.6 131.3 L206.9 129.8 L206.4 130.8 L203.6 132.4 Z M404.2 70.9 L401.9 70.3 L401.2 69.1 L404.2 69.7 L404.6 70.1 L404.2 70.9 Z M318.4 79.4 L317.0 79.3 L316.1 77.0 L314.0 74.7 L315.2 73.6 L318.0 75.1 L319.4 74.9 L320.3 73.3 L319.2 71.4 L320.3 70.9 L321.7 71.3 L322.7 71.9 L323.3 74.2 L320.3 76.1 L320.6 77.4 L318.4 79.4 Z M259.0 93.2 L257.8 92.6 L258.5 91.0 L259.9 90.2 L261.4 90.8 L261.7 91.3 L260.4 92.6 L259.0 93.2 Z M399.6 110.3 L397.7 110.2 L400.5 108.5 L399.6 110.3 Z M195.3 132.0 L193.0 131.8 L195.3 130.7 L195.9 130.9 L195.3 132.0 Z M290.3 182.1 L287.9 182.1 L284.8 171.9 L283.2 170.6 L283.7 166.4 L285.1 162.3 L286.2 160.6 L288.6 159.5 L290.3 156.1 L302.8 154.2 L308.3 155.2 L309.0 155.8 L310.0 161.3 L312.4 163.8 L314.3 164.5 L319.4 164.0 L322.8 165.5 L322.6 169.2 L318.4 171.8 L314.9 171.5 L315.0 172.9 L310.1 180.1 L307.4 178.3 L305.1 179.1 L302.3 178.7 L299.5 180.4 L297.2 180.5 L294.9 181.8 L290.3 182.1 Z" fill="#f6faff" fill-rule="evenodd"/></svg>
+  <path d="M0 240 H600" stroke="#33264f"/>
+  <text x="28" y="284" font-size="25" font-weight="600" fill="#ece4e0">Gojo over Doorman</text>
+  <text x="28" y="322" font-size="18" fill="#9a8f96">A Deadlock mod that replaces the Doorman with</text>
+  <text x="28" y="348" font-size="18" fill="#9a8f96">Satoru Gojo: model, abilities, effects, voice</text>
+  <text x="28" y="374" font-size="18" fill="#9a8f96">lines and interface, designed to work in online</text>
+  <text x="28" y="400" font-size="18" fill="#9a8f96">matches.</text>
+  <rect x="28" y="443" width="68" height="24" fill="none" stroke="#c9b48f" stroke-opacity="0.6"/><text x="37" y="460" font-size="14" fill="#c9b48f" textLength="50" lengthAdjust="spacingAndGlyphs">python</text>
+  <rect x="104" y="443" width="85" height="24" fill="none" stroke="#c9b48f" stroke-opacity="0.6"/><text x="113" y="460" font-size="14" fill="#c9b48f" textLength="67" lengthAdjust="spacingAndGlyphs">source 2</text>
+  <rect x="197" y="443" width="85" height="24" fill="none" stroke="#c9b48f" stroke-opacity="0.6"/><text x="206" y="460" font-size="14" fill="#c9b48f" textLength="67" lengthAdjust="spacingAndGlyphs">game mod</text>
+  <rect x="290" y="443" width="77" height="24" fill="none" stroke="#b9a4ff" stroke-opacity="0.6"/><text x="299" y="460" font-size="14" fill="#b9a4ff" textLength="59" lengthAdjust="spacingAndGlyphs">private</text>
+  <rect x="0.5" y="0.5" width="599" height="485" fill="none" stroke="#33264f"/>
+</svg>

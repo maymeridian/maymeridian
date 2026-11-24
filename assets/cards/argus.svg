@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 312" role="img" aria-label="Argus" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+  <rect width="600" height="312" fill="#07040a"/>
+  <svg width="600" height="240" viewBox="0 0 600 240"><defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#170d22"/>
+      <stop offset="1" stop-color="#07040a"/>
+    </radialGradient>
+    <radialGradient id="iris" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#e9e2ff"/>
+      <stop offset="0.25" stop-color="#b9a4ff"/>
+      <stop offset="0.7" stop-color="#6a4fd8"/>
+      <stop offset="1" stop-color="#2a1a5c"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f08a68" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f08a68" stop-opacity="0.35"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="240" fill="url(#bg)"/>
+
+  <!-- documents being read: text lines with OCR boxes -->
+  <g fill="#c9b48f" opacity="0.35">
+    <rect x="40" y="58" width="90" height="6"/><rect x="40" y="74" width="120" height="6"/>
+    <rect x="40" y="90" width="70" height="6"/><rect x="40" y="150" width="110" height="6"/>
+    <rect x="40" y="166" width="80" height="6"/>
+    <rect x="455" y="62" width="100" height="6"/><rect x="455" y="78" width="70" height="6"/>
+    <rect x="455" y="150" width="115" height="6"/><rect x="455" y="166" width="90" height="6"/>
+    <rect x="455" y="182" width="60" height="6"/>
+  </g>
+  <g fill="none" stroke="#d2583c" stroke-width="1.2" opacity="0.85">
+    <rect x="35" y="69" width="130" height="16"/>
+    <rect x="450" y="145" width="125" height="16"/>
+  </g>
+  <g fill="#f08a68" font-family="monospace" font-size="10" opacity="0.8">
+    <text x="35" y="64" dy="-0">SKU</text>
+    <text x="450" y="140">COA</text>
+  </g>
+
+  <!-- the eye -->
+  <g filter="url(#glow)">
+    <path d="M190 120 Q300 30 410 120 Q300 210 190 120 Z" fill="#0d0812" stroke="#d2583c" stroke-width="2.5"/>
+    <circle cx="300" cy="120" r="42" fill="url(#iris)"/>
+    <circle cx="300" cy="120" r="30" fill="none" stroke="#e9e2ff" stroke-opacity="0.35"/>
+    <circle cx="300" cy="120" r="18" fill="none" stroke="#e9e2ff" stroke-opacity="0.45"/>
+    <rect x="296" y="106" width="8" height="18" rx="3" fill="#fff"/>
+  </g>
+
+  <!-- scan beam -->
+  <rect x="190" y="132" width="220" height="30" fill="url(#scan)"/>
+  <line x1="170" y1="162" x2="430" y2="162" stroke="#f08a68" stroke-width="1.5" opacity="0.8"/></svg>
+  <path d="M0 240 H600" stroke="#33264f"/>
+  <text x="300" y="287" font-size="34" font-weight="600" fill="#ece4e0" text-anchor="middle">Argus</text>
+  <rect x="0.5" y="0.5" width="599" height="311" fill="none" stroke="#33264f"/>
+</svg>

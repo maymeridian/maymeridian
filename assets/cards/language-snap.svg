@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 486" role="img" aria-label="LanguageSnap: An Android app for the 20,000 most common words of Spanish, French and German, in which every example sentence was written by a person, not by AI." font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+  <rect width="600" height="486" fill="#07040a"/>
+  <svg width="600" height="240" viewBox="0 0 600 240"><defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0" stop-color="#15101f"/>
+      <stop offset="1" stop-color="#07040a"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="240" fill="url(#bg)"/>
+  <!-- the card thumbnail is cropped to its middle, so everything stays within x 136..470 -->
+  <g font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" text-anchor="middle">
+    <!-- three words... -->
+    <g>
+      <rect x="136" y="44" width="128" height="40" rx="6" fill="#120b16" stroke="#33264f" stroke-width="1.5"/>
+      <text x="200" y="70" fill="#ece4e0">perro</text>
+      <rect x="136" y="100" width="128" height="40" rx="6" fill="#120b16" stroke="#33264f" stroke-width="1.5"/>
+      <text x="200" y="126" fill="#ece4e0">chien</text>
+      <rect x="136" y="156" width="128" height="40" rx="6" fill="#120b16" stroke="#33264f" stroke-width="1.5"/>
+      <text x="200" y="182" fill="#ece4e0">der Hund</text>
+    </g>
+    <!-- ...snap... -->
+    <path d="M272 64 C 304 64, 304 120, 330 120 M272 120 H330 M272 176 C 304 176, 304 120, 330 120"
+          stroke="#6d5f66" stroke-width="1.5" fill="none" stroke-dasharray="4 4"/>
+    <path d="M352 92 L334 122 H348 L340 148 L364 114 H350 Z" fill="#f08a68"/>
+    <!-- ...to one meaning -->
+    <rect x="378" y="96" width="92" height="48" rx="6" fill="#120b16" stroke="#8b6cf0" stroke-width="2"/>
+    <text x="424" y="127" fill="#b9a4ff" font-size="22" font-weight="600">dog</text>
+  </g></svg>
+  <path d="M0 240 H600" stroke="#33264f"/>
+  <text x="28" y="284" font-size="25" font-weight="600" fill="#ece4e0">LanguageSnap</text>
+  <text x="28" y="322" font-size="18" fill="#9a8f96">An Android app for the 20,000 most common words of</text>
+  <text x="28" y="348" font-size="18" fill="#9a8f96">Spanish, French and German, in which every example</text>
+  <text x="28" y="374" font-size="18" fill="#9a8f96">sentence was written by a person, not by AI.</text>
+  <rect x="28" y="443" width="68" height="24" fill="none" stroke="#c9b48f" stroke-opacity="0.6"/><text x="37" y="460" font-size="14" fill="#c9b48f" textLength="50" lengthAdjust="spacingAndGlyphs">kotlin</text>
+  <rect x="104" y="443" width="144" height="24" fill="none" stroke="#c9b48f" stroke-opacity="0.6"/><text x="113" y="460" font-size="14" fill="#c9b48f" textLength="126" lengthAdjust="spacingAndGlyphs">jetpack compose</text>
+  <rect x="256" y="443" width="68" height="24" fill="none" stroke="#c9b48f" stroke-opacity="0.6"/><text x="265" y="460" font-size="14" fill="#c9b48f" textLength="50" lengthAdjust="spacingAndGlyphs">python</text>
+  <rect x="332" y="443" width="77" height="24" fill="none" stroke="#b9a4ff" stroke-opacity="0.6"/><text x="341" y="460" font-size="14" fill="#b9a4ff" textLength="59" lengthAdjust="spacingAndGlyphs">private</text>
+  <rect x="0.5" y="0.5" width="599" height="485" fill="none" stroke="#33264f"/>
+</svg>

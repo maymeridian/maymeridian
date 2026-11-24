@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 312" role="img" aria-label="Hermes" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+  <rect width="600" height="312" fill="#07040a"/>
+  <svg width="600" height="240" viewBox="0 0 600 240"><defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#1b0e16"/>
+      <stop offset="1" stop-color="#07040a"/>
+    </radialGradient>
+    <linearGradient id="wing" x1="0" x2="1">
+      <stop offset="0" stop-color="#b9a4ff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#e9e2ff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="240" fill="url(#bg)"/>
+
+  <!-- spreadsheet rows in the background -->
+  <g stroke="#c9b48f" stroke-opacity="0.18">
+    <line x1="60" y1="40" x2="540" y2="40"/><line x1="60" y1="70" x2="540" y2="70"/>
+    <line x1="60" y1="170" x2="540" y2="170"/><line x1="60" y1="200" x2="540" y2="200"/>
+    <line x1="160" y1="30" x2="160" y2="80"/><line x1="440" y1="30" x2="440" y2="80"/>
+    <line x1="160" y1="160" x2="160" y2="210"/><line x1="440" y1="160" x2="440" y2="210"/>
+  </g>
+
+  <!-- speed lines -->
+  <g stroke="#f08a68" stroke-linecap="round" opacity="0.6">
+    <line x1="110" y1="112" x2="170" y2="112" stroke-width="2"/>
+    <line x1="95" y1="128" x2="175" y2="128" stroke-width="2"/>
+    <line x1="120" y1="144" x2="172" y2="144" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <!-- wings -->
+    <path d="M262 112 C 235 80, 205 72, 178 78 C 200 86, 205 92, 196 96 C 215 98, 222 104, 210 110 C 230 110, 240 116, 262 126 Z" fill="url(#wing)"/>
+    <path d="M338 112 C 365 80, 395 72, 422 78 C 400 86, 395 92, 404 96 C 385 98, 378 104, 390 110 C 370 110, 360 116, 338 126 Z" fill="url(#wing)" transform="scale(1 1)"/>
+    <!-- parcel -->
+    <path d="M300 82 L 346 102 L 346 152 L 300 172 L 254 152 L 254 102 Z" fill="#2a1520" stroke="#d2583c" stroke-width="2"/>
+    <path d="M254 102 L 300 122 L 346 102 M 300 122 L 300 172" fill="none" stroke="#d2583c" stroke-width="2"/>
+    <path d="M277 92 L 323 112" stroke="#c9b48f" stroke-width="5" opacity="0.7"/>
+  </g>
+
+  <!-- SOLD stamp -->
+  <g transform="rotate(-12 430 140)">
+    <rect x="392" y="124" width="76" height="30" rx="3" fill="none" stroke="#f08a68" stroke-width="2.5"/>
+    <text x="430" y="146" text-anchor="middle" font-family="monospace" font-size="18" font-weight="bold" fill="#f08a68">SOLD</text>
+  </g></svg>
+  <path d="M0 240 H600" stroke="#33264f"/>
+  <text x="300" y="287" font-size="34" font-weight="600" fill="#ece4e0" text-anchor="middle">Hermes</text>
+  <rect x="0.5" y="0.5" width="599" height="311" fill="none" stroke="#33264f"/>
+</svg>
