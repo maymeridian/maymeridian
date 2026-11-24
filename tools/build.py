@@ -286,8 +286,8 @@ if __name__ == "__main__":
 
     # 1. The banner
     (ASSETS / "cards").mkdir(parents=True, exist_ok=True)
-    (ASSETS / "header.svg").write_text(banner(), encoding="utf-8", newline="\n")
-    print("assets/header.svg")
+    (ASSETS / "banner.svg").write_text(banner(), encoding="utf-8", newline="\n")
+    print("assets/banner.svg")
 
     # 2. A card per project: full cards for the public groups, small ones for the store's own tools
     for project in json.loads((site / "projects.json").read_text(encoding="utf-8")):
