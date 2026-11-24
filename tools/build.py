@@ -187,7 +187,6 @@ def banner():
 
     <text x="{TAGLINE_LEFT}" y="150" font-size="68" fill="{RED_BRIGHT}" textLength="{title_width}" lengthAdjust="spacing">MAYMERIDIAN</text>
     {taglines()}
-    <text x="{TAGLINE_LEFT}" y="262" font-size="17" fill="{VIOLET_BRIGHT}">maymeridian.dev →</text>
 
     <path d="M0 318 H{width} M0 364 H{width}" stroke="{BORDER}"/>
     <g fill="{TEXT_DIM}" opacity="0.75" font-size="{TICKER_SIZE}">

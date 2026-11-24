@@ -174,7 +174,6 @@
       <animate attributeName="x" values="70;652;652;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
     </rect>
-    <text x="70" y="262" font-size="17" fill="#b9a4ff">maymeridian.dev →</text>
 
     <path d="M0 318 H1200 M0 364 H1200" stroke="#33264f"/>
     <g fill="#9a8f96" opacity="0.75" font-size="16">
