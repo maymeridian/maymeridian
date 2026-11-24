@@ -151,27 +151,27 @@
 
     <text x="70" y="150" font-size="68" fill="#f08a68" textLength="540" lengthAdjust="spacing">MAYMERIDIAN</text>
     <clipPath id="line-0"><rect x="70" y="182" width="0" height="36">
-      <animate attributeName="width" values="0;623;623;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;638;638;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="0s" repeatCount="indefinite"/>
     </rect></clipPath>
-    <text x="70" y="208" font-size="24" fill="#ece4e0" textLength="619" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-0)">machine learning, checked against real data</text>
+    <text x="70" y="208" font-size="24" fill="#ece4e0" textLength="634" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-0)">1st place, MALLORN Kaggle: TDEs in LSST data</text>
     <rect class="caret" x="70" y="186" width="11" height="26" fill="#f08a68" opacity="0">
-      <animate attributeName="x" values="70;695;695;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="70;710;710;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="0s" repeatCount="indefinite"/>
     </rect>
     <clipPath id="line-1"><rect x="70" y="182" width="0" height="36">
-      <animate attributeName="width" values="0;652;652;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="4s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;594;594;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="4s" repeatCount="indefinite"/>
     </rect></clipPath>
-    <text x="70" y="208" font-size="24" fill="#ece4e0" textLength="648" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-1)">game mods and a VR port rebuilt from a binary</text>
+    <text x="70" y="208" font-size="24" fill="#ece4e0" textLength="590" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-1)">IL2CPP ARM64 to C#: an AR game on SteamVR</text>
     <rect class="caret" x="70" y="186" width="11" height="26" fill="#f08a68" opacity="0">
-      <animate attributeName="x" values="70;724;724;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="4s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="70;666;666;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="4s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="4s" repeatCount="indefinite"/>
     </rect>
     <clipPath id="line-2"><rect x="70" y="182" width="0" height="36">
-      <animate attributeName="width" values="0;623;623;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;580;580;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
     </rect></clipPath>
-    <text x="70" y="208" font-size="24" fill="#ece4e0" textLength="619" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-2)">the tools that run a film and TV prop store</text>
+    <text x="70" y="208" font-size="24" fill="#ece4e0" textLength="576" lengthAdjust="spacingAndGlyphs" clip-path="url(#line-2)">BiRefNet cut-outs in 0.25 s through ONNX</text>
     <rect class="caret" x="70" y="186" width="11" height="26" fill="#f08a68" opacity="0">
-      <animate attributeName="x" values="70;695;695;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="70;652;652;70;70" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.1333;0.3000;0.3333;1" dur="12s" begin="8s" repeatCount="indefinite"/>
     </rect>
     <text x="70" y="262" font-size="17" fill="#b9a4ff">maymeridian.dev →</text>

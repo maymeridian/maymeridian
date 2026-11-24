@@ -40,9 +40,9 @@ BANNER = (1200, 380)  # size of the banner's drawing area
 STARS = 90  # stars scattered over the banner
 SEED = 1048596  # fixes where the stars fall, so a rebuild draws the same sky
 TAGLINES = [
-    "machine learning, checked against real data",
-    "game mods and a VR port rebuilt from a binary",
-    "the tools that run a film and TV prop store",
+    "1st place, MALLORN Kaggle: TDEs in LSST data",
+    "IL2CPP ARM64 to C#: an AR game on SteamVR",
+    "BiRefNet cut-outs in 0.25 s through ONNX",
 ]
 TAGLINE_SIZE = 24  # points
 TAGLINE_LEFT = 70  # left edge of the title and the taglines
